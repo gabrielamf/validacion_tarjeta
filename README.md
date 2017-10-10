@@ -26,9 +26,9 @@
     array_digitos = 0;
 
       para ( i = 0 ; i < numeros_invertidos.longitud ; i++){
-        si( (i + 1) % 2 === 0){
+        si( (i + 1) es numero_par){
 
-          si ((numeros_invertidos[i] + 1) % 2 === 0){
+          si ((numeros_invertidos[i] * 2) >= 10){
             primer_digito = parseInt((numeros_invertidos[i] * 2) / 10 );
             segundo_digito = parseInt((numeros_invertidos[i] * 2) % 10);
 
@@ -57,6 +57,3 @@
 
     isValidCard(numero_a_validar)
 ***
-### DIAGRAMA DE FLUJO :
-
-![Atributo Alt](https://drive.google.com/file/d/0B3bpOQCV2XsLYXRZUl91Q0ZXcFU/view "diagrama_cifrado")
